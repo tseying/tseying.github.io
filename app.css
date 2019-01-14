@@ -1,0 +1,27 @@
+.guide_line {
+    width: 100px;
+    height: 30px;
+    background-color: #9fcdff;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    line-height: 30px;
+}
+.guide_line a {
+    color: #062c33;
+}
+
+
+.guide {
+    background-color: #9fcdff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width:150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
