@@ -1,0 +1,73 @@
+#dailyDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.frameOfMenu {
+    width: 160px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.frameOfSearch {
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 9px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.daily_menu {
+    text-align: center;
+    color: #062c33;
+    width: 150px;
+    alignment: left;
+}
+
+.daily_menu a{
+    color: #062c33;
+}
+
+.publish {
+    text-align: center;
+    color: #fffcf6;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(234,63,26,0.82);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.publish a{
+    color: #fffcf6;
+}
+
+.share {
+    text-align: center;
+    color: #fffcf6;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(234, 54, 40, 0.84);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.share a{
+    color: #fffcf6;
+}
+
+.contentOfDaily{
+    width: auto;
+    height: available;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+

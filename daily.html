@@ -2,28 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Daily</title>
-    <link rel="stylesheet" type="text/css" href="app.css">
+    <title>My Daily</title>
+    <link rel="stylesheet" type="text/css" href="daily.css">
+    <link rel="stylesheet" type="text/css" href="Homepage.css">
+    <style type="text/css">a{text-decoration: None}</style>
 </head>
 <body>
-    <h1 style="color: #062c33" align="center"><img src="肉.png" width="35px" height="35px">My Daily</h1>
-<div id="divOfDaily">
-    <div class="guide">
-        <p style="color: #062c33;font-size: large"><img src="操作日志.png" width="25px" height="25px" align="center">Daily Menu</p>
-        <p style="color: #062c33"><img src="right.png" width="22px" height="22px" align="center">&nbsp;New Update</p>
-        <p style="color: #062c33"><img src="other.png" width="22px" height="22px" align="center">&nbsp;Menmory</p>
-        <p style="color: #062c33"><img src="loading-日历.png" width="22px" height="22px" align="center">&nbsp;2019</p>
-        <p style="color: #062c33"><img src="loading-日历.png" width="22px" height="22px" align="center">&nbsp;2018</p>
+
+    <header class="designOfHeader" id="headerDiv">
+        <div class="guide_line"><a href="index.html"><b>HomePage</b></a></div>
+        <div class="guide_line"><a href="daily.html"><b>Daily</b></a></div>
+        <div class="guide_line"><a href="album.html"><b>Album</b></a></div>
+        <div class="guide_line"><a href="about_me.html"><b>About Me</b></a></div>
+    </header>
+    <br/>
+
+<div id="dailyDiv">
+    <div class="frameOfMenu">
+        <div class="frameOfSearch"><input type="text" align="center" value="Searching..."></div>
+        <br/>
+        <div class="daily_menu">
+            <a href="">Newly Update</a>
+        </div>
+        <br/>
+        <div class="daily_menu">
+            <a href="">2019</a>
+        </div>
+        <br/>
+        <div class="daily_menu">
+            <a href="">2018</a>
+        </div>
+        <br/>
+        <div class="publish">
+            <a href=""><b>Publish</b></a>
+        </div>
+        <br>
+        <div class="share">
+            <a href=""><b>Share</b></a>
+        </div>
     </div>
     <br/>
 
     <div class="contentOfDaily">
-        <h2 style="color: #062c33">&nbsp;&nbsp;Written Daily</h2>
-
+        <div>
+            <strong style="color: #062c33;font-size: xx-large;margin-left: 5px">MY DAILY</strong>
+        </div>
     </div>
 
-
 </div>
+
+    <footer class="designOfFooter" id="footerDiv">
+        <div style="width: 300px">
+            <p><b>Welcome To My Secret Garden!</b></p>
+            <p><b>Wish You Happy Everyday!</b></p>
+        </div>
+        <div style="width: 200px;font-size: small">
+            <p><img src="邮箱.png" width="22px" height="22px" align="center">&nbsp;<b>：yyaxq@163.com</b></p>
+            <p><img src="新浪微博.png" width="22px" height="22px" align="center">&nbsp;<b>：@此二不正</b></p>
+            <p><img src="Instagram.png" width="22px" height="22px" align="center">&nbsp;<b>：@tseyyingg</b></p>
+
+        </div>
+    </footer>
 
 
 </body>

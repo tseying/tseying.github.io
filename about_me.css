@@ -1,0 +1,45 @@
+.designOfHeader{
+    width: 100%;
+    height: 60px;
+    top: 0;
+    position: fixed;
+    background-color: rgb(221, 219, 219);
+}
+
+#header1Div{
+    display: flex;
+    justify-content: center;
+}
+
+.guide_line {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+.guide_line a {
+    color: #062c33;
+    width: 150px;
+}
+
+.simpleState {
+    width: 200px;
+    height: available;
+    margin-left: 20px;
+    margin-top: 50px;
+    alignment: center;
+}
+
+.comlpexState{
+    width: available;
+    height: available;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+#meDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
