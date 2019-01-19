@@ -32,6 +32,25 @@
     alignment: center;
 }
 
+.picture {
+    width: 150px;
+    height: 150px;
+    border: #dddbdb 2px solid;
+    alignment: center;
+}
+
+.upload {
+    color: #fffcf6;
+    background-color: #062c33;
+    width: 150px;
+    height: available;
+    alignment: left;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
 .comlpexState{
     width: available;
     height: available;
