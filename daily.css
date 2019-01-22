@@ -22,11 +22,19 @@
     text-align: center;
     color: #062c33;
     width: 150px;
+    height: 30px;
+    line-height: 30px;
     alignment: left;
 }
 
 .daily_menu a{
     color: #062c33;
+}
+
+.daily_menu:hover{
+    width: 150px;
+    height: 30px;
+    background-color: #ebe9e9;
 }
 
 .publish {
