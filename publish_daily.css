@@ -1,0 +1,68 @@
+#publishDiv{
+    display: flex;
+}
+
+.publishMenu{
+    width: 160px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.Publish{
+    text-align: center;
+    color: #fffcf6;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(234,63,26,0.82);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.Publish a{
+    color: #fffcf6;
+}
+
+.Save a{
+    color: #fffcf6;
+}
+
+.Save{
+    text-align: center;
+    color: #fffcf6;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(234, 54, 40, 0.84);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.mainframe{
+    height: 1500px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.title{
+    display: flex;
+    height: 25px;
+    line-height: 25px;
+
+}
+
+#Title{
+    color: #062c33;
+}
+
+#Text{
+    color: #062c33;
+    text-align: -moz-left;
+}
